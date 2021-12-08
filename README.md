@@ -13,20 +13,3 @@ Follow these instructions in order. If you make a mistake, start over from the b
 1. Navigate back to the original folder.
 1. Remove the `site` folder.
 1. Type the following command: `history | tail -n 10 > cli_history` to print your last 10 actions to the file `cli_history`.
-
-## Rubric
-
-A correct history looks like this:
-
-```
-1   7/13/2021 22:45  mkdir site
-2   7/13/2021 22:45  cd site
-3   7/13/2021 22:46  touch index.html
-4   7/13/2021 22:46  mkdir pages
-5   7/13/2021 22:46  vim pages/about.html
-6   7/13/2021 22:47  mv pages/about.html .
-7   7/13/2021 22:47  ls pages
-8   7/13/2021 22:47  rm -rf pages
-9   7/13/2021 22:47  cd ..
-10  7/13/2021 22:47  rm -r site
-```
